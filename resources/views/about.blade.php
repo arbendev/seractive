@@ -16,8 +16,9 @@
     </div>
   </div>
 </section>
+@include('components.breadcrumbs')
 
-<section class="py-5">
+<section class="pt-0 pb-5">
   <div class="container-xl py-5">
     <div class="row g-5 align-items-center">
       <div class="col-lg-6">
@@ -155,17 +156,8 @@
   </div>
 </section>
 
-<section class="bg-primary py-5">
-  <div class="container-xl text-center py-5">
-    <div class="col-lg-8 mx-auto text-white">
-        <h3 class="display-6 fw-bold mb-4">
-            If you care how AI behaves in your business
-        </h3>
-        <p class="lead mb-5 opacity-75">
-           We should talk.
-        </p>
-        <a href="{{ url('/contact') }}" class="btn btn-light btn-lg fw-bold text-primary px-5">Let’s talk</a>
-    </div>
-  </div>
-</section>
+<livewire:components.call-to-action 
+    title="If you care how AI behaves in your business" 
+    text="We should talk." 
+/>
 @endsection

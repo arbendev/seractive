@@ -128,15 +128,7 @@
               <div class="col-lg-4">
                 <h6>Stay Updated</h6>
                 <p class="text-light opacity-75 small mb-3">Get the latest insights on AI and automation delivered to your inbox.</p>
-                <form action="#">
-                  <div class="input-group">
-                    <input type="email" class="form-control bg-dark border-secondary text-light" placeholder="Email address" aria-label="Email address">
-                    <button class="btn btn-primary" type="button">Subscribe</button>
-                  </div>
-                  <p class="text-light opacity-50 small mt-2" style="font-size: 0.75rem;">
-                    By subscribing, you agree to our Privacy Policy.
-                  </p>
-                </form>
+<livewire:components.newsletter-signup />
               </div>
 
             </div>

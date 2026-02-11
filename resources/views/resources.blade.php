@@ -15,8 +15,9 @@
     </div>
   </div>
 </section>
+@include('components.breadcrumbs')
 
-<section class="py-5">
+<section class="pt-0 pb-5">
   <div class="container-xl">
     <div class="row g-4">
 
@@ -127,21 +128,8 @@
   </div>
 </section>
 
-<section class="cta-band py-5">
-  <div class="container-xl">
-    <div class="row g-3 align-items-center">
-      <div class="col-lg-8">
-        <h3 class="fw-bold mb-2">Looking for something specific?</h3>
-        <div class="text-white-50">
-          We can share material relevant to your industry, constraints, or system goals.
-        </div>
-      </div>
-      <div class="col-lg-4 text-lg-end">
-        <a href="{{ url('/contact') }}" class="btn btn-primary btn-lg">
-          Let’s talk
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<livewire:components.call-to-action 
+    title="Looking for something specific?" 
+    text="We can share material relevant to your industry, constraints, or system goals." 
+/>
 @endsection

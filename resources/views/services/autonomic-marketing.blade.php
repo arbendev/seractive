@@ -28,9 +28,10 @@
     </div>
   </div>
 </section>
+@include('components.breadcrumbs', ['style' => 'background-color: var(--bg-alt);'])
 
 <!-- ================= OUTCOMES & REPLACEMENT ================= -->
-<section class="py-5 bg-alt" style="background-color: var(--bg-alt);">
+<section class="pt-0 pb-5 bg-alt" style="background-color: var(--bg-alt);">
   <div class="container-xl py-5">
     <div class="row g-5">
       
@@ -233,17 +234,8 @@
 </section>
 
 <!-- ================= CTA ================= -->
-<section class="bg-primary py-5">
-  <div class="container-xl text-center py-5">
-    <div class="col-lg-8 mx-auto text-white">
-        <h2 class="display-5 fw-bold mb-4">
-        Build an automated marketing engine
-        </h2>
-        <p class="lead mb-5 opacity-75">
-            We’ll map your content workflow, integrations, cadence, and approval gates.
-        </p>
-        <a href="{{ url('/contact') }}" class="btn btn-light btn-lg fw-bold text-primary px-5">Let’s talk</a>
-    </div>
-  </div>
-</section>
+<livewire:components.call-to-action 
+    title="Build an automated marketing engine" 
+    text="We’ll map your content workflow, integrations, cadence, and approval gates." 
+/>
 @endsection

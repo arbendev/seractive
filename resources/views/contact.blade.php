@@ -15,8 +15,9 @@
     </div>
   </div>
 </section>
+@include('components.breadcrumbs')
 
-<section class="py-5">
+<section class="pt-0 pb-5">
   <div class="container-xl py-5">
     <div class="row g-5">
 
@@ -48,17 +49,10 @@
   </div>
 </section>
 
-<section class="bg-primary py-5">
-  <div class="container-xl text-center py-5">
-    <div class="col-lg-8 mx-auto text-white">
-        <h2 class="display-6 fw-bold mb-4">
-            Prefer a structured evaluation?
-        </h2>
-        <p class="lead mb-5 opacity-75">
-            Ask about our AI Architecture Audit.
-        </p>
-        <a href="{{ url('/resources/ai-audit') }}" class="btn btn-light btn-lg fw-bold text-primary px-5">View audit framework</a>
-    </div>
-  </div>
-</section>
+<livewire:components.call-to-action 
+    title="Prefer a structured evaluation?" 
+    text="Ask about our AI Architecture Audit." 
+    buttonText="View audit framework"
+    buttonUrl="/resources/ai-audit"
+/>
 @endsection

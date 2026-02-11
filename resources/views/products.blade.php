@@ -17,7 +17,9 @@
   </div>
 </section>
 
-<section class="py-5 bg-alt" style="background-color: var(--bg-alt);">
+@include('components.breadcrumbs', ['style' => 'background-color: var(--bg-alt);'])
+
+<section class="pb-5 pt-0 bg-alt" style="background-color: var(--bg-alt);">
   <div class="container-xl py-5">
     <div class="row g-4">
 
@@ -201,17 +203,8 @@
   </div>
 </section>
 
-<section class="bg-primary py-5">
-  <div class="container-xl text-center py-5">
-    <div class="col-lg-8 mx-auto text-white">
-        <h2 class="display-5 fw-bold mb-4">
-        Deploy AI products inside your business
-        </h2>
-        <p class="lead mb-5 opacity-75">
-            We’ll help you choose the right system and adapt it to your workflows.
-        </p>
-        <a href="{{ url('/contact') }}" class="btn btn-light btn-lg fw-bold text-primary px-5">Let’s talk</a>
-    </div>
-  </div>
-</section>
+<livewire:components.call-to-action 
+    title="Deploy AI products inside your business" 
+    text="We’ll help you choose the right system and adapt it to your workflows." 
+/>
 @endsection
