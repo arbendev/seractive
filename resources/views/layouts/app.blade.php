@@ -51,7 +51,16 @@
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/products') }}">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/industries') }}">Industries</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ url('/resources') }}">Resources</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Resources
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="{{ url('/resources') }}">All Resources</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/blog') }}">Blog</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/resources/ai-audit') }}">AI Audit</a></li>
+                  </ul>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
               </ul>
             </div>
