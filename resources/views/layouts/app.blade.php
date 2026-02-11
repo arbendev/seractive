@@ -58,7 +58,7 @@
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="{{ url('/resources') }}">All Resources</a></li>
                     <li><a class="dropdown-item" href="{{ url('/blog') }}">Blog</a></li>
-                    <li><a class="dropdown-item" href="{{ url('/resources/ai-audit') }}">AI Audit</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/case-studies') }}">Case Studies</a></li>
                   </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
@@ -128,7 +128,7 @@
                 <h6>Resources</h6>
                 <ul class="list-unstyled d-flex flex-column gap-3">
                   <li><a href="#">Blog</a></li>
-                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="{{ url('/case-studies') }}">Case Studies</a></li>
                   <li><a href="#">Documentation</a></li>
                   <li><a href="#">Support</a></li>
                 </ul>

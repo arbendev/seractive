@@ -1,12 +1,17 @@
 <?php
 
 use App\Http\Controllers\BlogController;
-
-Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
-Route::get('/blog/{post:slug}', [BlogController::class, 'show'])->name('blog.show');
+use App\Http\Controllers\CaseStudyController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\HomeController;
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/{post:slug}', [BlogController::class, 'show'])->name('blog.show');
+
+// Case Studies Routes
+Route::get('/case-studies', [CaseStudyController::class, 'index'])->name('case-studies.index');
+Route::get('/case-studies/{caseStudy:slug}', [CaseStudyController::class, 'show'])->name('case-studies.show');
 
 /*
 |--------------------------------------------------------------------------
