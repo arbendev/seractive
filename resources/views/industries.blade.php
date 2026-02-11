@@ -45,7 +45,7 @@
     <div class="row g-4">
 
       <!-- Aviation -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="aviation">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Aviation
@@ -83,7 +83,7 @@
       </div>
 
       <!-- Private Investments -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="investments">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Investments
@@ -121,7 +121,7 @@
       </div>
 
       <!-- Finance & Insurance -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="finance">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Finance
@@ -159,7 +159,7 @@
       </div>
 
       <!-- Manufacturing -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="manufacturing">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Manufacturing
@@ -197,7 +197,7 @@
       </div>
 
       <!-- Retail -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="retail">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Retail
@@ -235,7 +235,7 @@
       </div>
 
       <!-- Logistics -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="logistics">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Logistics

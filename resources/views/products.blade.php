@@ -24,7 +24,7 @@
     <div class="row g-4">
 
       <!-- ContextClue -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="contextclue">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Knowledge · Documents · Generation
@@ -68,7 +68,7 @@
       </div>
 
       <!-- Nexus Core -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="nexus-core">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Operations · CRM · Intelligence
@@ -112,7 +112,7 @@
       </div>
 
       <!-- Insight Engine -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="insight-engine">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Reporting · Analytics · Forecasting
@@ -156,7 +156,7 @@
       </div>
 
       <!-- Concierge Framework -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" id="concierge-framework">
         <div class="capability-card h-100 p-4 p-md-5">
           <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4">
             Intake · Agents · Automation
