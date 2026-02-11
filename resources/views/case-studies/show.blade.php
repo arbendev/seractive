@@ -57,6 +57,18 @@
                         </div>
                     </div>
 
+                    {{-- Newsletter Widget --}}
+                    <div class="card border-0 shadow-sm rounded-4 mb-4 overflow-hidden bg-secondary text-white">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-box bg-white bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 48px; height: 48px;">
+                                <i class="bi bi-envelope-paper fs-4 text-primary"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Subscribe</h5>
+                            <p class="small text-white-50 mb-4">Get the latest insights on AI and automation delivered to your inbox.</p>
+                            <livewire:components.newsletter-signup />
+                        </div>
+                    </div>
+
                      {{-- Share Widget --}}
                     <div class="card border-0 bg-light rounded-4 p-4 shadow-sm">
                         <h5 class="fw-bold mb-3">Share this story</h5>

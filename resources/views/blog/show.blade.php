@@ -92,12 +92,7 @@
                         </div>
                         <h5 class="fw-bold mb-2">Subscribe</h5>
                         <p class="small text-white-50 mb-4">Get the latest insights on AI and automation delivered to your inbox.</p>
-                        <form action="#" method="POST">
-                            <div class="mb-3">
-                                <input type="email" class="form-control form-control-sm bg-white bg-opacity-10 border-0 text-white placeholder-white-50" placeholder="Your work email" style="height: 42px;">
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-sm w-100 fw-bold py-2">Sign me up</button>
-                        </form>
+                        <livewire:components.newsletter-signup />
                     </div>
                 </div>
 
