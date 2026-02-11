@@ -25,7 +25,7 @@
                     <span wire:loading>Processing...</span>
                 </button>
             </div>
-            <p class="text-center text-muted mt-3 mb-0" style="font-size: 0.75rem;">
+            <p class="text-center text-muted mt-3 mb-0 fs-xs">
                 No commitment required.
             </p>
         </form>

@@ -38,9 +38,9 @@
     </div>
   </div>
 </section>
-@include('components.breadcrumbs', ['style' => 'background-color: var(--bg-alt);'])
+@include('components.breadcrumbs', ['class' => 'bg-alt'])
 
-<section class="pt-0 pb-5 bg-alt" style="background-color: var(--bg-alt);">
+<section class="pt-0 pb-5 bg-alt">
   <div class="container-xl py-5">
     <div class="row g-4">
 

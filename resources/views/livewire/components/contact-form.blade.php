@@ -74,7 +74,7 @@
 
             <!-- Context -->
             <div class="form-floating mb-4">
-                <textarea class="form-control @error('context') is-invalid @enderror" placeholder="Context" id="formContext" wire:model="context" style="height: 100px"></textarea>
+                <textarea class="form-control @error('context') is-invalid @enderror h-100px" placeholder="Context" id="formContext" wire:model="context"></textarea>
                 <label for="formContext">Brief context (optional)</label>
                  @error('context') <div class="invalid-feedback">{{ $message }}</div> @enderror
             </div>

@@ -58,9 +58,9 @@
 
             <div class="d-none d-lg-block">
                 @guest
-                    <a href="{{ url('/contact') }}" class="btn btn-primary">Let's talk</a>
+                    <a href="{{ url('/contact') }}" class="btn btn-primary btn-sm">Let's talk</a>
                     @if (Route::has('login'))
-                        <a class="btn btn-outline-primary ms-2" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="btn btn-outline-primary btn-sm ms-2" href="{{ route('login') }}">{{ __('Login') }}</a>
                     @endif
                 @else
                     <div class="dropdown d-inline-block">
@@ -95,7 +95,7 @@
                 <a href="#" class="d-block mb-4">
                   <img src="{{ asset('img/seractive-white.png') }}" alt="Seractive" height="36">
                 </a>
-                <p class="text-light opacity-75 mb-4" style="max-width: 300px;">
+                <p class="text-light opacity-75 mb-4 max-w-300">
                   Architecting intelligence for the modern enterprise. We build the systems that power your future.
                 </p>
                 <div class="d-flex gap-3">

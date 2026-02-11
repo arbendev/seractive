@@ -15,7 +15,7 @@
             </button>
         </div>
         @error('email') <span class="text-danger small">{{ $message }}</span> @enderror
-        <p class="text-light opacity-50 small mt-2" style="font-size: 0.75rem;">
+        <p class="text-light opacity-50 small mt-2 fs-xs">
             By subscribing, you agree to our Privacy Policy.
         </p>
     </form>

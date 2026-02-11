@@ -1,5 +1,5 @@
 @unless(Route::is('index'))
-    <nav aria-label="breadcrumb" class="pt-4 pb-0" style="{{ $style ?? '' }}">
+    <nav aria-label="breadcrumb" class="pt-4 pb-0 {{ $class ?? '' }}" style="{{ $style ?? '' }}">
         <div class="container-xl">
             <ol class="breadcrumb mb-0" style="font-size: 0.8rem;">
                 <li class="breadcrumb-item"><a href="{{ route('index') }}" class="text-decoration-none text-primary">Home</a></li>

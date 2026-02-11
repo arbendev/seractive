@@ -285,6 +285,10 @@ footer a:hover {
   border: 1px solid #BBF7D0;
 }
 
+.bg-alt {
+  background-color: var(--bg-alt);
+}
+
 .text-primary-dark {
   color: var(--primary-dark) !important;
 }
@@ -301,6 +305,26 @@ footer a:hover {
 
 .grayscale:hover {
   filter: grayscale(0%);
+}
+
+.max-w-300 {
+  max-width: 300px;
+}
+
+.max-w-600 {
+  max-width: 600px;
+}
+
+.max-w-650 {
+  max-width: 650px;
+}
+
+.h-100px {
+  height: 100px !important;
+}
+
+.fs-xs {
+  font-size: 0.75rem !important;
 }
 
 /* Page Hero */
@@ -473,8 +497,8 @@ footer a:hover {
 
 /* Mobile Optimizations */
 @media (max-width: 768px) {
-    .page-hero .container-xl,
-    .hero .container-xl {
+    /* Global container padding for mobile */
+    .container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -490,14 +514,10 @@ footer a:hover {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
-    .core-capabilities .container-xl,
-    .case-study .container-xl,
-    .service-strip .container-xl,
-    .trusted-by .container-xl,
-    .cta-section .container-xl {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    
+    .logo-slider::before,
+    .logo-slider::after {
+        width: 50px;
     }
 }
 
@@ -574,13 +594,5 @@ footer a:hover {
     }
     100% {
         transform: translateX(calc(-200px * 11));
-    }
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .logo-slider::before,
-    .logo-slider::after {
-        width: 50px;
     }
 }

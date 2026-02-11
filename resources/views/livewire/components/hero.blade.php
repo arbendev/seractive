@@ -7,9 +7,9 @@
       <div class="col-lg-8">
         <h1 class="display-4 fw-bold mb-4">
           Driving change through<br>
-          <span style="color: var(--primary);">AI & Data solutions</span>
+          <span class="text-primary">AI & Data solutions</span>
         </h1>
-        <p class="lead mb-5 text-light opacity-95" style="max-width: 600px;">
+        <p class="lead mb-5 text-light opacity-95 max-w-600">
           We architect systems that automate marketing, operations, reporting,
           and customer onboarding resulting in intelligent, scalable workflows.
         </p>

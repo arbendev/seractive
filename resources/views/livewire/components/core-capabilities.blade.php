@@ -1,4 +1,4 @@
-<section class="py-5 bg-alt core-capabilities" style="background-color: var(--bg-alt);">
+<section class="py-5 bg-alt core-capabilities">
   <div class="container-xl py-2">
     <div class="row align-items-end mb-5">
       <div class="col-lg-8">

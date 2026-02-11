@@ -62,7 +62,7 @@
 </section>
 
 <!-- ================= WHAT WE EVALUATE ================= -->
-<section class="py-5 bg-alt" style="background-color: var(--bg-alt);">
+<section class="py-5 bg-alt">
   <div class="container-xl py-5">
     <h2 class="h3 fw-bold mb-5">What we evaluate</h2>
 

@@ -30,7 +30,7 @@
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary py-2 fw-semibold">Book Strategy Call</button>
                 </div>
-                <p class="text-center text-muted mt-3 mb-0" style="font-size: 0.75rem;">
+                <p class="text-center text-muted mt-3 mb-0 fs-xs">
                     No commitment required.
                 </p>
             </form>
@@ -39,9 +39,9 @@
     </div>
   </div>
 </section>
-@include('components.breadcrumbs', ['style' => 'background-color: var(--bg-alt);'])
+@include('components.breadcrumbs', ['class' => 'bg-alt'])
 
-<section class="pt-0 pb-5 bg-alt" style="background-color: var(--bg-alt);">
+<section class="pt-0 pb-5 bg-alt">
   <div class="container-xl py-5">
     <div class="row g-4">
 
@@ -52,7 +52,7 @@
              <i class="bi bi-megaphone"></i>
           </div>
           <h5 class="fw-bold mb-2">Autonomic Marketing Hub</h5>
-          <p class="small text-muted text-uppercase fw-bold mb-3" style="font-size: 0.75rem;">SEO · Social · Email Automation</p>
+          <p class="small text-muted text-uppercase fw-bold mb-3 fs-xs">SEO · Social · Email Automation</p>
           <p class="text-secondary mb-4">
             A custom AI-driven marketing system that researches, writes, and distributes
             content across SEO, social media, and email — aligned to your brand voice.
@@ -70,7 +70,7 @@
              <i class="bi bi-people"></i>
           </div>
           <h5 class="fw-bold mb-2">Nexus — AI CRM</h5>
-          <p class="small text-muted text-uppercase fw-bold mb-3" style="font-size: 0.75rem;">Client · Task · Workflow Intelligence</p>
+          <p class="small text-muted text-uppercase fw-bold mb-3 fs-xs">Client · Task · Workflow Intelligence</p>
           <p class="text-secondary mb-4">
             An intelligent CRM layer that listens to emails, meetings, and messages,
             auto-updates records, prioritizes work, and recommends next actions.
@@ -88,7 +88,7 @@
              <i class="bi bi-headset"></i>
           </div>
           <h5 class="fw-bold mb-2">24/7 Growth Concierge</h5>
-          <p class="small text-muted text-uppercase fw-bold mb-3" style="font-size: 0.75rem;">Lead Capture · Qualification · Onboarding</p>
+          <p class="small text-muted text-uppercase fw-bold mb-3 fs-xs">Lead Capture · Qualification · Onboarding</p>
           <p class="text-secondary mb-4">
             A custom AI intake agent that replaces contact forms by qualifying leads,
             answering objections, booking calls, and initiating onboarding automatically.
@@ -106,7 +106,7 @@
              <i class="bi bi-bar-chart-line"></i>
           </div>
           <h5 class="fw-bold mb-2">Insight 360</h5>
-          <p class="small text-muted text-uppercase fw-bold mb-3" style="font-size: 0.75rem;">Hourly · Daily · Predictive Reporting</p>
+          <p class="small text-muted text-uppercase fw-bold mb-3 fs-xs">Hourly · Daily · Predictive Reporting</p>
           <p class="text-secondary mb-4">
             An AI-powered reporting and intelligence suite that monitors your business
             continuously and delivers insights, alerts, and strategic suggestions.
@@ -124,7 +124,7 @@
              <i class="bi bi-check-circle"></i>
           </div>
           <h5 class="fw-bold mb-2">Workforce Efficiency Architect</h5>
-          <p class="small text-muted text-uppercase fw-bold mb-3" style="font-size: 0.75rem;">Labor Reduction · Automation · AI Audits</p>
+          <p class="small text-muted text-uppercase fw-bold mb-3 fs-xs">Labor Reduction · Automation · AI Audits</p>
           <p class="text-secondary mb-4">
             A consultancy-first engagement that identifies repeatable tasks and replaces
             them with agentic AI workflows to reduce labor cost and increase margins.

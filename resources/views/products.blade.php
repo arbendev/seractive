@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-lg-8">
         <h1 class="display-5 mb-4">AI products built for real operations</h1>
-        <p class="lead text-light opacity-75 mb-0" style="max-width: 650px;">
+        <p class="lead text-light opacity-75 mb-0 max-w-650">
           Seractive products are production-grade AI systems designed to be deployed inside
           real businesses — not generic SaaS tools.
         </p>
@@ -17,9 +17,9 @@
   </div>
 </section>
 
-@include('components.breadcrumbs', ['style' => 'background-color: var(--bg-alt);'])
+@include('components.breadcrumbs', ['class' => 'bg-alt'])
 
-<section class="pb-5 pt-0 bg-alt" style="background-color: var(--bg-alt);">
+<section class="pb-5 pt-0 bg-alt">
   <div class="container-xl py-5">
     <div class="row g-4">
 
