@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Let’s Talk — Seractive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+      .page-hero {
+          background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.8) 100%), url('images/hero.jpg') center / cover no-repeat;
+          color: #fff;
+          padding: 6rem 0;
+          position: relative;
+      }
+      .page-hero h1 {
+          font-weight: 700;
+          letter-spacing: -0.02em;
+      }
+      .form-card {
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          padding: 2rem;
+          background: #fff;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      }
+      .sticky-content {
+          position: sticky;
+          top: 100px;
+      }
+      /* Ensure textareas in floating labels have correct height */
+      .form-floating > textarea {
+          height: 120px;
+      }
+  </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container-xl">
+    <a class="navbar-brand" href="/">
+      <img src="img/seractive.png" alt="Seractive" height="40">
+    </a>
+
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="nav" class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav gap-lg-4 my-3 my-lg-0">
+        <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="/industries">Industries</a></li>
+        <li class="nav-item"><a class="nav-link" href="/resources">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+      </ul>
+    </div>
+
+    <div class="d-none d-lg-block">
+        <a href="/contact" class="btn btn-primary">Let's talk</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="page-hero">
+  <div class="container-xl">
+    <div class="col-lg-8">
+      <h1 class="display-5 mb-4">Let’s talk about your workflows</h1>
+      <p class="lead text-light opacity-75">
+        This is not a sales form.  
+        It’s the first step in understanding whether AI can meaningfully
+        reduce cost, risk, or friction in your operations.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FORM + CONTEXT ================= -->
+<section class="py-5">
+  <div class="container-xl py-5">
+    <div class="row g-5">
+
+      <!-- Context -->
+      <div class="col-lg-5">
+        <div class="sticky-content">
+            <h2 class="h4 fw-bold mb-4">What happens next</h2>
+            <p class="text-secondary mb-4">
+              We review your submission to understand:
+            </p>
+            <ul class="text-secondary mb-4 list-unstyled d-flex flex-column gap-2">
+              <li class="d-flex align-items-start gap-2"><i class="bi bi-check2 text-primary mt-1"></i> Where manual effort is being wasted</li>
+              <li class="d-flex align-items-start gap-2"><i class="bi bi-check2 text-primary mt-1"></i> What data and systems are involved</li>
+              <li class="d-flex align-items-start gap-2"><i class="bi bi-check2 text-primary mt-1"></i> Whether AI is appropriate — or premature</li>
+            </ul>
+            <p class="text-secondary mb-5">
+              If there’s a clear opportunity, we’ll schedule a focused
+              strategy call. If not, we’ll tell you honestly.
+            </p>
+    
+            <div class="capability-card p-4 shadow-sm border">
+              <div class="fw-bold text-dark mb-3">Good fit indicators</div>
+              <ul class="small text-secondary mb-0 list-unstyled d-flex flex-column gap-2">
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-dot"></i> Repeated, time-consuming workflows</li>
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-dot"></i> Clear cost or scaling pressure</li>
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-dot"></i> Existing digital tools or data</li>
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-dot"></i> Desire for control and accountability</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="col-lg-7">
+        <div class="form-card">
+          <form>
+
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="formName" placeholder="Your name">
+                    <label for="formName">Name</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="formEmail" placeholder="you@company.com">
+                    <label for="formEmail">Work Email</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Company -->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="formCompany" placeholder="Acme Corp">
+                <label for="formCompany">Company / Organization</label>
+            </div>
+
+            <!-- Industry -->
+            <div class="form-floating mb-4">
+                <select class="form-select" id="formIndustry">
+                  <option selected disabled>Select industry</option>
+                  <option>Aviation</option>
+                  <option>Finance / Insurance</option>
+                  <option>Manufacturing</option>
+                  <option>Retail / E-commerce</option>
+                  <option>Logistics</option>
+                  <option>Other</option>
+                </select>
+                <label for="formIndustry">Industry</label>
+            </div>
+
+            <!-- Goals (Choice Cards) -->
+            <label class="form-label fw-bold mb-3 d-block text-secondary">What is your primary goal?</label>
+            <div class="row g-2 mb-4">
+                <div class="col-sm-6">
+                    <input type="radio" class="btn-check" name="goal" id="goal1" autocomplete="off">
+                    <label class="choice-card-label" for="goal1">
+                        Reduce manual work
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="radio" class="btn-check" name="goal" id="goal2" autocomplete="off">
+                    <label class="choice-card-label" for="goal2">
+                        Improve visibility/metrics
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="radio" class="btn-check" name="goal" id="goal3" autocomplete="off">
+                    <label class="choice-card-label" for="goal3">
+                        Automate onboarding
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="radio" class="btn-check" name="goal" id="goal4" autocomplete="off">
+                    <label class="choice-card-label" for="goal4">
+                        Scale operations
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="radio" class="btn-check" name="goal" id="goal5" autocomplete="off">
+                    <label class="choice-card-label" for="goal5">
+                        Evaluate AI feasibility
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="radio" class="btn-check" name="goal" id="goal6" autocomplete="off">
+                    <label class="choice-card-label" for="goal6">
+                        Other / Unsure
+                    </label>
+                </div>
+            </div>
+
+            <!-- Context -->
+            <div class="form-floating mb-4">
+                <textarea class="form-control" placeholder="Context" id="formContext"></textarea>
+                <label for="formContext">Brief context (optional)</label>
+            </div>
+
+            <div class="d-grid exception">
+                <button type="submit" class="btn btn-primary py-3 fw-bold">
+                Submit & start conversation
+                </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="bg-primary py-5">
+  <div class="container-xl text-center py-5">
+    <div class="col-lg-8 mx-auto text-white">
+        <h2 class="display-6 fw-bold mb-4">
+            Prefer a structured evaluation?
+        </h2>
+        <p class="lead mb-5 opacity-75">
+            Ask about our AI Architecture Audit.
+        </p>
+        <a href="/resources/ai-audit" class="btn btn-light btn-lg fw-bold text-primary px-5">View audit framework</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="pt-5 pb-4">
+  <div class="container-xl">
+    <div class="row g-5">
+      
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <a href="#" class="d-block mb-4">
+          <img src="img/seractive.png" alt="Seractive" height="24" style="filter: brightness(0) invert(1);">
+        </a>
+        <p class="text-light opacity-75 mb-4" style="max-width: 300px;">
+          Architecting intelligence for the modern enterprise. We build the systems that power your future.
+        </p>
+        <div class="d-flex gap-3">
+          <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h6>Company</h6>
+        <ul class="list-unstyled d-flex flex-column gap-3">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h6>Resources</h6>
+        <ul class="list-unstyled d-flex flex-column gap-3">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4">
+        <h6>Stay Updated</h6>
+        <p class="text-light opacity-75 small mb-3">Get the latest insights on AI and automation delivered to your inbox.</p>
+        <form action="#">
+          <div class="input-group">
+            <input type="email" class="form-control bg-dark border-secondary text-light" placeholder="Email address" aria-label="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+          <p class="text-light opacity-50 small mt-2" style="font-size: 0.75rem;">
+            By subscribing, you agree to our Privacy Policy.
+          </p>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <div class="small text-light opacity-50">
+        © 2026 Seractive. All rights reserved.
+      </div>
+      <div class="d-flex gap-4 small text-light opacity-75">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>24/7 Growth Concierge — Seractive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+      .page-hero {
+          background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.8) 100%), url('../images/concierge-hero.jpg') center / cover no-repeat;
+          color: #fff;
+          padding: 6rem 0;
+          position: relative;
+      }
+      .page-hero h1 {
+          font-weight: 700;
+          letter-spacing: -0.02em;
+      }
+      /* Accordion Customization */
+      .accordion-item {
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          overflow: hidden;
+          margin-bottom: 1rem;
+      }
+      .accordion-button:not(.collapsed) {
+          background-color: #F0FDF4;
+          color: var(--primary-dark);
+          box-shadow: none;
+      }
+      .accordion-button:focus {
+          box-shadow: none;
+          border-color: rgba(61,187,125,.25);
+      }
+      .accordion-button {
+          font-weight: 600;
+          padding: 1.25rem;
+      }
+      .accordion-body {
+          padding: 1.25rem;
+          line-height: 1.6;
+      }
+  </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container-xl">
+    <a class="navbar-brand" href="/">
+      <img src="../img/seractive.png" alt="Seractive" height="40">
+    </a>
+
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="nav" class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav gap-lg-4 my-3 my-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="/services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="/industries">Industries</a></li>
+        <li class="nav-item"><a class="nav-link" href="/resources">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+      </ul>
+    </div>
+
+    <div class="d-none d-lg-block">
+        <a href="/contact" class="btn btn-primary">Let's talk</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= PAGE HERO ================= -->
+<section class="page-hero">
+  <div class="container-xl">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <span class="badge bg-green-soft text-primary-dark rounded-pill px-3 py-2 mb-4 border-0">
+            Lead Capture · Qualification · Onboarding
+        </span>
+        <h1 class="display-5 mb-4">24/7 Growth Concierge</h1>
+        <p class="lead text-light opacity-75 mb-4">
+          Replace contact forms with a custom AI intake agent that engages every prospect instantly,
+          qualifies fit, answers objections from approved sources, and starts onboarding automatically.
+        </p>
+        <div class="d-flex gap-3">
+            <a href="/services" class="btn btn-outline-light">
+                <i class="bi bi-arrow-left me-2"></i>Back to Services
+            </a>
+        </div>
+      </div>
+      <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
+        <div class="bg-white p-4 p-md-5 rounded-4 shadow-lg text-dark">
+            <h3 class="fw-bold mb-2">Get your AI audit</h3>
+            <p class="text-secondary mb-4 small">See where automation can save you money.</p>
+            <form>
+                <div class="mb-3">
+                    <label for="workEmail" class="form-label small fw-bold text-secondary">Work Email</label>
+                    <input type="email" class="form-control bg-light border-light" id="workEmail" placeholder="name@company.com">
+                </div>
+                <div class="mb-4">
+                    <label for="companyName" class="form-label small fw-bold text-secondary">Company Name</label>
+                    <input type="text" class="form-control bg-light border-light" id="companyName" placeholder="Acme Corp">
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary py-2 fw-semibold">Book Strategy Call</button>
+                </div>
+                <p class="text-center text-muted mt-3 mb-0" style="font-size: 0.75rem;">
+                    No commitment required.
+                </p>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OUTCOMES & REPLACEMENT ================= -->
+<section class="py-5 bg-alt" style="background-color: var(--bg-alt);">
+  <div class="container-xl py-5">
+    <div class="row g-5">
+      
+      <!-- What it replaces -->
+      <div class="col-lg-6">
+        <h2 class="h3 fw-bold mb-4">What this replaces</h2>
+        <p class="text-secondary mb-4">
+          The concierge eliminates the delay between interest and response — and removes repetitive human qualification.
+        </p>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="capability-card h-100 p-4">
+              <div class="fw-bold text-dark mb-2">Contact forms</div>
+              <div class="small text-secondary">Static submission → delayed response.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="capability-card h-100 p-4">
+              <div class="fw-bold text-dark mb-2">Inbox triage</div>
+              <div class="small text-secondary">Manual sorting + chasing basic details.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="capability-card h-100 p-4">
+              <div class="fw-bold text-dark mb-2">Repeated FAQs</div>
+              <div class="small text-secondary">Same answers typed by humans every day.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="capability-card h-100 p-4">
+              <div class="fw-bold text-dark mb-2">Unqualified calls</div>
+              <div class="small text-secondary">Meetings with poor-fit prospects.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Outcomes -->
+      <div class="col-lg-6">
+        <div class="bg-white p-5 rounded-4 border h-100 shadow-sm">
+          <h3 class="h4 fw-bold mb-4">The Outcomes</h3>
+          <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+            <li class="d-flex align-items-start gap-3">
+              <i class="bi bi-check-circle-fill text-primary mt-1"></i>
+              <span class="text-secondary">Instant lead engagement (24/7)</span>
+            </li>
+            <li class="d-flex align-items-start gap-3">
+              <i class="bi bi-check-circle-fill text-primary mt-1"></i>
+              <span class="text-secondary">Qualification based on your criteria</span>
+            </li>
+            <li class="d-flex align-items-start gap-3">
+              <i class="bi bi-check-circle-fill text-primary mt-1"></i>
+              <span class="text-secondary">Higher conversion due to speed-to-lead</span>
+            </li>
+            <li class="d-flex align-items-start gap-3">
+              <i class="bi bi-check-circle-fill text-primary mt-1"></i>
+              <span class="text-secondary">Automatic booking + onboarding kickoff data</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="py-5">
+  <div class="container-xl py-5">
+    <h2 class="h3 fw-bold mb-5 text-center">How it works</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="capability-card h-100 p-4 border bg-alt">
+          <div class="fw-bold text-dark mb-2">1. Engagement</div>
+          <div class="small text-secondary">Conversation starts with high-signal questions based on your service type.</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="capability-card h-100 p-4 border bg-alt">
+          <div class="fw-bold text-dark mb-2">2. Knowledge Retrieval</div>
+          <div class="small text-secondary">Answers using approved documents and defined pricing rules.</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="capability-card h-100 p-4 border bg-alt">
+          <div class="fw-bold text-dark mb-2">3. Qualification Logic</div>
+          <div class="small text-secondary">Filters leads by fit, budget range, timeline, and intent.</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="capability-card h-100 p-4 border bg-alt">
+          <div class="fw-bold text-dark mb-2">4. Onboarding Actions</div>
+          <div class="small text-secondary">Books calls, captures details, and syncs to CRM + notifications.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-5 border-top"></div>
+
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <h3 class="h5 fw-bold mb-4">What we need from you</h3>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100">
+              <div class="fw-bold text-dark mb-1">Qualification criteria</div>
+              <div class="small text-secondary">The 3–7 questions that define a qualified lead.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100">
+              <div class="fw-bold text-dark mb-1">Pricing + boundaries</div>
+              <div class="small text-secondary">Ranges the agent can share + what must be escalated.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100">
+              <div class="fw-bold text-dark mb-1">Approved knowledge</div>
+              <div class="small text-secondary">FAQs, proposals, service docs, policies, onboarding steps.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100">
+              <div class="fw-bold text-dark mb-1">Integrations</div>
+              <div class="small text-secondary">Calendar + CRM + notifications (email/Slack/SMS).</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="bg-alt p-5 rounded-4 h-100">
+          <h3 class="h5 fw-bold mb-3">Channels</h3>
+          <p class="small text-secondary mb-4">Deploy on web first, then expand.</p>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-white text-secondary border fw-normal px-3 py-2">Website Widget</span>
+            <span class="badge bg-white text-secondary border fw-normal px-3 py-2">SMS</span>
+            <span class="badge bg-white text-secondary border fw-normal px-3 py-2">WhatsApp</span>
+            <span class="badge bg-white text-secondary border fw-normal px-3 py-2">Email Intake</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="py-5 bg-light">
+  <div class="container-xl py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h2 class="h3 fw-bold mb-4 text-center">Frequently Asked Questions</h2>
+            <div class="accordion shadow-sm" id="faq-gc">
+            <div class="accordion-item bg-white">
+                <h2 class="accordion-header" id="gc1">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#gcc1">
+                    Can it give incorrect pricing or answers?
+                </button>
+                </h2>
+                <div id="gcc1" class="accordion-collapse collapse show" data-bs-parent="#faq-gc">
+                <div class="accordion-body text-secondary">
+                    The agent is constrained by approved sources and defined rules. Unknowns are escalated to a human.
+                </div>
+                </div>
+            </div>
+
+            <div class="accordion-item bg-white">
+                <h2 class="accordion-header" id="gc2">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#gcc2">
+                    Can humans intervene?
+                </button>
+                </h2>
+                <div id="gcc2" class="accordion-collapse collapse" data-bs-parent="#faq-gc">
+                <div class="accordion-body text-secondary">
+                    Yes. You can add a live handoff, internal alerts, and an approval step before any outbound actions.
+                </div>
+                </div>
+            </div>
+
+            <div class="accordion-item bg-white">
+                <h2 class="accordion-header" id="gc3">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#gcc3">
+                    Can it support multiple languages?
+                </button>
+                </h2>
+                <div id="gcc3" class="accordion-collapse collapse" data-bs-parent="#faq-gc">
+                <div class="accordion-body text-secondary">
+                    Yes. Language detection and multilingual responses can be enabled by default.
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="bg-primary py-5">
+  <div class="container-xl text-center py-5">
+    <div class="col-lg-8 mx-auto text-white">
+        <h2 class="display-5 fw-bold mb-4">
+        Deploy an intake agent that never sleeps
+        </h2>
+        <p class="lead mb-5 opacity-75">
+            We’ll define qualification logic, approved knowledge, and onboarding actions.
+        </p>
+        <a href="/contact" class="btn btn-light btn-lg fw-bold text-primary px-5">Let’s talk</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="pt-5 pb-4">
+  <div class="container-xl">
+    <div class="row g-5">
+      
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <a href="#" class="d-block mb-4">
+          <img src="../img/seractive.png" alt="Seractive" height="24" style="filter: brightness(0) invert(1);">
+        </a>
+        <p class="text-light opacity-75 mb-4" style="max-width: 300px;">
+          Architecting intelligence for the modern enterprise. We build the systems that power your future.
+        </p>
+        <div class="d-flex gap-3">
+          <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h6>Company</h6>
+        <ul class="list-unstyled d-flex flex-column gap-3">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h6>Resources</h6>
+        <ul class="list-unstyled d-flex flex-column gap-3">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4">
+        <h6>Stay Updated</h6>
+        <p class="text-light opacity-75 small mb-3">Get the latest insights on AI and automation delivered to your inbox.</p>
+        <form action="#">
+          <div class="input-group">
+            <input type="email" class="form-control bg-dark border-secondary text-light" placeholder="Email address" aria-label="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+          <p class="text-light opacity-50 small mt-2" style="font-size: 0.75rem;">
+            By subscribing, you agree to our Privacy Policy.
+          </p>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <div class="small text-light opacity-50">
+        © 2026 Seractive. All rights reserved.
+      </div>
+      <div class="d-flex gap-4 small text-light opacity-75">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
