@@ -40,7 +40,7 @@
                             <span class="text-primary fw-bold text-uppercase small mb-2 d-block">Case Study</span>
                             <h3 class="display-6 fw-bold mb-4">{{ $caseStudy->title }}</h3>
                             <p class="text-secondary lead mb-4">
-                              {{ Str::limit($caseStudy->solution, 200) }}
+                              {!! Str::limit($caseStudy->solution, 200) !!}
                             </p>
                             @if(is_array($caseStudy->key_metrics))
                                 <ul class="list-unstyled mb-4">
