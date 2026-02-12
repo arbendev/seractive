@@ -21,21 +21,21 @@
                     <div class="mb-5">
                         <h2 class="fw-bold text-dark mb-3 h3">The Challenge</h2>
                         <div class="text-justify">
-                            {!! nl2br(e($caseStudy->challenge)) !!}
+                            {!! $caseStudy->challenge !!}
                         </div>
                     </div>
 
                     <div class="mb-5">
                         <h2 class="fw-bold text-dark mb-3 h3">Our Solution</h2>
                         <div class="text-justify">
-                            {!! nl2br(e($caseStudy->solution)) !!}
+                            {!! $caseStudy->solution !!}
                         </div>
                     </div>
 
                     <div class="mb-5">
                         <h2 class="fw-bold text-dark mb-3 h3">The Results</h2>
-                         <div class="text-justify">
-                            {!! nl2br(e($caseStudy->results)) !!}
+                        <div class="text-justify">
+                            {!! $caseStudy->results !!}
                         </div>
                     </div>
                 </article>
