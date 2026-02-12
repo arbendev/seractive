@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
           <div class="container-xl">
             <a class="navbar-brand" href="{{ url('/') }}">
-              <img src="{{ asset('img/seractive-logo.jpg') }}" alt="Seractive" height="30">
+              <img src="{{ asset('img/seractive-logo.jpg') }}" alt="Seractive" height="20">
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
