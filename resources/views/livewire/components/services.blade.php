@@ -1,6 +1,6 @@
 <section class="service-strip" id="services">
   <div class="container-xl">
-    <div class="row g-5 text-center">
+    <div class="row g-4 g-lg-5 text-center">
       <div class="col-md-4">
         <div class="service-icon">
             <i class="bi bi-diagram-3"></i>
