@@ -5,21 +5,21 @@
         <div class="service-icon">
             <i class="bi bi-diagram-3"></i>
         </div>
-        <h5 class="fw-bold mb-2">AI Consulting</h5>
+        <h5 class="fw-bold">AI Consulting</h5>
         <p class="opacity-75 mb-0">Architecture, audits, and enterprise system design</p>
       </div>
       <div class="col-md-4">
         <div class="service-icon">
             <i class="bi bi-cpu"></i>
         </div>
-        <h5 class="fw-bold mb-2">Generative AI</h5>
+        <h5 class="fw-bold">Generative AI</h5>
         <p class="opacity-75 mb-0">Custom LLM workflows & autonomous agents</p>
       </div>
       <div class="col-md-4">
         <div class="service-icon">
             <i class="bi bi-bar-chart"></i>
         </div>
-        <h5 class="fw-bold mb-2">Big Data Consulting</h5>
+        <h5 class="fw-bold">Big Data Consulting</h5>
         <p class="opacity-75 mb-0">Reporting, forecasting, and decision engines</p>
       </div>
     </div>
