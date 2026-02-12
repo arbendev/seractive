@@ -14,8 +14,8 @@
           and customer onboarding resulting in intelligent, scalable workflows.
         </p>
         <div class="d-flex gap-3">
-          <a href="#contact" class="btn btn-primary btn-lg px-5">Get Started</a>
-          <a href="{{ url('/services') }}" class="btn btn-outline-light btn-lg px-5">Explore Services</a>
+          <a href="#contact" class="btn btn-primary px-4">Get Started</a>
+          <a href="{{ url('/services') }}" class="btn btn-outline-light px-4">Explore Services</a>
         </div>
       </div>
     </div>
